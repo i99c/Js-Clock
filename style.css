@@ -31,7 +31,8 @@
     width: 450px;
     height: 250px;
     border-radius: 2px;
-    border: 2px solid white;
+    border: none;
+    border: 0px solid white;
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -42,9 +43,8 @@
     /* Saat bölümünü ortalamak için */
     backdrop-filter: blur(5px);
     /* Saat bölümünü blurlu yap */
-}
-
-.clock h2 {
-    margin: 20%;
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
 }
